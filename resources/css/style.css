@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero-login
+{
+    height: 150%;
+    width: 100%;
+    background: linear-gradient(rgba(7, 3, 114, 0.8), rgba(7, 3, 114, 0.9)), url(../images/new-lnu-building.png) fixed center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.9;
+    position: absolute;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(53, 53, 168);
+}
+
+.table-container{
+  width: 60%;
+  height: 80%;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.table-container-container h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.table-container form {
+  font-size: 20px;
+}
+
+.table-container form .form-group {
+  margin-bottom: 12px;
+}
+
+.login {
+  width: 700px;
+  height: min-content;
+  padding: 40px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.login h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.register {
+  width: 1000px;
+  height: min-content;
+  padding: 50px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.register form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.register h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.register form {
+  font-size: 20px;
+}
+
+.register form .form-group {
+  margin-bottom: 12px;
+}
+
+.register form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
